@@ -1,7 +1,7 @@
 import {Grid, Flex, GridItem, Text, Button, Image} from "@chakra-ui/react"
 import logo from "../../assets/icons/logo-grupoEstudos.svg";
 import ages from "../../assets/icons/logo-ages.svg";
-// import creatus from "../../assets/icons/logo-creatus.svg";
+import creatus from "../../assets/icons/logo-creatus.svg";
 
 
 
@@ -11,11 +11,12 @@ function LandingPage(){
             <GridItem>
                 <Flex height={"100vh"} flexDirection={"column"} justifyContent={"center"} alignItems={"center"}>
                     <Image src={logo} alt="Logo" width={"300px"}/>
-                    <Text color={"black"} maxWidth={"600px"}>Este grupo de estudos é um espaço colaborativo para aprender e desenvolver habilidades técnicas essenciais em HTML, CSS, JavaScript, React, MongoDB e uso do GitHub para controle de versão, além de explorar práticas do mundo real. Combinando conteúdo técnico e desenvolvimento de soft skills como comunicação, trabalho em equipe e resolução de problemas, o </Text>
-                    <Flex>
-                        <Text>Powered by:</Text>
-                        <Image src={ages} alt="Logo" />
-                    </Flex>
+                    <Text color={"black"} maxWidth={"600px"} margin={"20px"}>Este grupo de estudos é um espaço colaborativo para aprender e desenvolver habilidades técnicas essenciais em HTML, CSS, JavaScript, React, MongoDB e uso do GitHub para controle de versão, além de explorar práticas do mundo real. Combinando conteúdo técnico e desenvolvimento de soft skills como comunicação, trabalho em equipe e resolução de problemas, o </Text>
+                    <Flex alignItems={"center"}>
+                        <Text color={"black"}>Powered by:</Text>
+                        <Image src={creatus} alt="Logo creatus" width={"200px"} />
+                        <Image src={ages} alt="Logo ages" />
+                    </Flex> 
                 </Flex>
             </GridItem>
             <GridItem>
