@@ -1,8 +1,9 @@
+import Material from "../../components/base/Material/material";
 
 function forgotPassword(){
     return(
-        <h1>ForgotPassword</h1>
+        <Material></Material>
     )
 }
 
-export default forgotPassword
+export default forgotPassword;
