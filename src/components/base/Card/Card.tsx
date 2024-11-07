@@ -33,7 +33,7 @@ function Card({ index, url, isBlocked = false, image }: CardProps) {
             position={"relative"}
         >
             <Box
-                backgroundColor={"#2E23A7"}
+                backgroundColor={"#2e23a7"}
                 width={"250px"}
                 height={"35px"}
                 textAlign={"center"}
