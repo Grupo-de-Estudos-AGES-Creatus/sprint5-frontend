@@ -1,8 +1,8 @@
-import Material from "../../components/base/Material/material";
+
 
 function forgotPassword(){
     return(
-        <Material></Material>
+        <h1>ForgotPassword</h1>
     )
 }
 
