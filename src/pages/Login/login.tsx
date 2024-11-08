@@ -6,7 +6,7 @@ import Logo from "../../assets/Logo.png"
 
 function Login(){
     return (
-      <Box background={"#e4e4e7"} height={"100vh"} paddingTop={"114px"}>
+      <Box background={"#e4e4e7"} height={"100vh"} paddingTop={"114px"} >
         <Flex justifyContent={"center"} flexDirection={"column"} alignItems={"center"}  gap={"30px"} >
           <Flex justifyContent={"center"} flexDirection={"column"} alignItems={"center"}  gap={"30px"} backgroundColor={"#fafafa"} padding={"20px 30px"} borderRadius={"20px"}>
             <img src={Logo} alt="Logo"/>
