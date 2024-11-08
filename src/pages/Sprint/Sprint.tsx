@@ -10,7 +10,7 @@ function Sprint(){
             <Grid gridTemplateColumns={"auto 1fr"} >
                 <SideBar ></SideBar>
                 
-                    <Grid gridTemplateRows={"0.6fr 0.1fr 0.5fr 0.1fr auto"} marginTop={"15vh"} padding={"0 20vh"}    >
+                    <Grid gridTemplateRows={"0.4fr 0.01fr 0.2fr 0.03fr auto"} marginTop={"15vh"} padding={"0 20vh"}    >
                         <Box >
                             <Text fontSize={"6vh"}>Calculadora Web</Text >
                             <Text fontSize={"3vh"}>Neste projeto, vamos criar uma calculadora funcional usando JavaScript, HTML e CSS. Ela permitirá operações básicas, 
@@ -25,7 +25,7 @@ function Sprint(){
                             </Text>
                         </Box>
                         <Box backgroundColor={"white"} width={"70vw"} height={"0.1vh"} marginTop="1vh" ></Box>
-                        <Box paddingBottom={"15vh"} >
+                        <Box  >
                             <Text fontSize={"6vh"}> Materiais</Text>
                         </Box>
                     </Grid>
