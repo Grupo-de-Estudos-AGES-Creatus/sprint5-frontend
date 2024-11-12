@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "@/pages/LandingPage/ladingPage";
-import Login from "@/pages/Login/Login";
+import Login from "@/pages/Login/login";
 import Home from "@/pages/Home/home";
 import Sprint from "@/pages/Sprint/Sprint";
 import Profile from "@/pages/Profile/profile";
 import ForgotPassword from "@/pages/ForgotPassword/forgotPassword";
 import Subscribe from "@/pages/Inscricao/Subscribe";
-import ChangePassword from "@/pages/ChangePassword/ChangePassword";
+import ChangePassword from "@/pages/ChangePassword/changePassword";
+import Calendar from "@/pages/Calendar/Calendar";
 
 const AppRoutes= () => {
     return(
@@ -19,6 +20,8 @@ const AppRoutes= () => {
             <Route path="/sprint" element={<Sprint/>}></Route>
             <Route path="/profile" element={<Profile/>}></Route>
             <Route path="/subscribe" element={<Subscribe/>}></Route>
+            <Route path="/login/changepassword" element={<ChangePassword/>}></Route>
+            <Route path="/calendar" element={<Calendar/>}></Route>
         </Routes>
     </Router>
     )
